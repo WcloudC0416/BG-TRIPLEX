@@ -54,7 +54,7 @@ def load_model_weights(path: str):
     return resnet
 
 
-class TRIPLEX(pl.LightningModule):
+class BG-TRIPLEX(pl.LightningModule):
     """Model class for TRIPLEX
     """
 
