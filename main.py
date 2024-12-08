@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 import pytorch_lightning as pl
 from pytorch_lightning.strategies.ddp import DDPStrategy
 
-from models import TRIPLEX, CustomWriter
+from models import BG-TRIPLEX, CustomWriter
 from datasets import STDataset
 from utils import collate_fn, load_callbacks, load_config, load_loggers
 
